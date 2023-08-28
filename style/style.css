@@ -6,9 +6,75 @@
   margin: 0;
   font-family: 'Roboto Mono', monospace;
 }
+.btn-primary{
+  background-color: #dd2953;
+  padding: 8px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.btn-primary:hover{
+  background-color: #801e35;
+}
 
 /* HEADER SECTION  */
+.header-section {
+  background-color: #FCEEF1;
+  height: 600px;
+}
 
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1c7d1;
+  padding: 10px 0;
+}
+
+.logo h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.logo span {
+  color: #dd2953;
+
+}
+.menu-bar{
+  display: flex;
+  
+}
+.menu-bar li{
+  list-style: none;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.menu-bar li:hover{
+  color: #dd2953;
+}
+
+/* BANNER SECTION  */
+.banner-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+.banner-title{
+  font-size: 36px;
+}
+.banner-description{
+  font-size: 18px;
+  margin: 20px 0;
+}
+.banner-img img{
+  height: 540px;
+}
 /* MAIN SECTION  */
 
 /* FOOTER SECTION  */
